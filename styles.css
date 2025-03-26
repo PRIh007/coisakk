@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --alto-contrasre-fundo: #000000;
+    --alto-contrasre-texto: #ffffff;
+    --alto-contrasre-link: #ffd700;
 }
 
 body {
@@ -160,4 +163,26 @@ h2 {
 }
 .apresenta-lista{
     display: none;
+}
+.alto-contraste{
+    background-color: var(--alto-contrasre-fundo);
+    color: var(--alto-contrasre-texto);
+}
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contrasre-fundo);
+    color: var(--alto-contrasre-texto);
+}
+.alto-contraste .nav-link{
+    color: var(--alto-contrasre-link);
+}
+.alto-contraste #tropicalia{
+    background: none;
+}
+.alto-contraste #galeria{
+    background-color: var(--alto-contrasre-fundo);
+}
+.alto-contraste .fundo-galeria{
+    background: none;
 }
