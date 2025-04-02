@@ -186,3 +186,9 @@ h2 {
 .alto-contraste .fundo-galeria{
     background: none;
 }
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contrasre-link);
+    color: var(--alto-contrasre-fundo);
+}
